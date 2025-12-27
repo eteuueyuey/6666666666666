@@ -1,0 +1,123 @@
+═══════════════════════════════════════════════════════════════════════════
+  ENVIRONMENT VARIABLES FOR STELLAR SWEEP BOT
+═══════════════════════════════════════════════════════════════════════════
+
+Copy and paste these into your Render dashboard or controlled PC.
+
+═══════════════════════════════════════════════════════════════════════════
+  FOR RENDER DASHBOARD (Add each as separate environment variable)
+═══════════════════════════════════════════════════════════════════════════
+
+SOURCE_SECRET
+SBPKN6UH7QQLC37MIIYHFP2K4OAQAYFNSZC4ZQFJVA5RQ4VABV22O4FD
+
+FEE_PAYER_SECRET
+SD644ZM7YLXZE3HZZUKGSJC3R45PMM6LPP5CCO2UIIUW6STRJCVJ4XJR
+
+DESTINATION_ACCOUNT
+MD5HGPHVL73EBDUD2Z4K2VDRLUBC4FFN7GOBLKPK6OPPXH6TED4TQAAAAGMU2T4A4QT5Y
+
+UNLOCK_TIMESTAMP
+1766827134
+
+BALANCE_ID
+00000000a0a575e408edf3e491c02b4dcde164716d6893ebd591b305330040cb9a9d0459
+
+PI_HORIZON_URL
+https://api.mainnet.minepi.com
+
+PI_NETWORK_PASSPHRASE
+Pi Network
+
+TRIGGER_OFFSET_MS
+100
+
+BASE_FEE
+100
+
+FEE_MULTIPLIER
+10
+
+PORT
+5000
+
+═══════════════════════════════════════════════════════════════════════════
+  FOR WINDOWS POWERSHELL (Copy and paste all at once)
+═══════════════════════════════════════════════════════════════════════════
+
+$env:SOURCE_SECRET="SBPKN6UH7QQLC37MIIYHFP2K4OAQAYFNSZC4ZQFJVA5RQ4VABV22O4FD"
+$env:FEE_PAYER_SECRET="SD644ZM7YLXZE3HZZUKGSJC3R45PMM6LPP5CCO2UIIUW6STRJCVJ4XJR"
+$env:DESTINATION_ACCOUNT="MD5HGPHVL73EBDUD2Z4K2VDRLUBC4FFN7GOBLKPK6OPPXH6TED4TQAAAAGMU2T4A4QT5Y"
+$env:UNLOCK_TIMESTAMP="1766827134"
+$env:BALANCE_ID="00000000a0a575e408edf3e491c02b4dcde164716d6893ebd591b305330040cb9a9d0459"
+$env:PI_HORIZON_URL="https://api.mainnet.minepi.com"
+$env:PI_NETWORK_PASSPHRASE="Pi Network"
+$env:TRIGGER_OFFSET_MS="100"
+$env:BASE_FEE="100"
+$env:FEE_MULTIPLIER="10"
+$env:PORT="5000"
+
+═══════════════════════════════════════════════════════════════════════════
+  FOR LINUX/MAC BASH (Copy and paste all at once)
+═══════════════════════════════════════════════════════════════════════════
+
+export SOURCE_SECRET="SBPKN6UH7QQLC37MIIYHFP2K4OAQAYFNSZC4ZQFJVA5RQ4VABV22O4FD"
+export FEE_PAYER_SECRET="SD644ZM7YLXZE3HZZUKGSJC3R45PMM6LPP5CCO2UIIUW6STRJCVJ4XJR"
+export DESTINATION_ACCOUNT="MD5HGPHVL73EBDUD2Z4K2VDRLUBC4FFN7GOBLKPK6OPPXH6TED4TQAAAAGMU2T4A4QT5Y"
+export UNLOCK_TIMESTAMP="1766827134"
+export BALANCE_ID="00000000a0a575e408edf3e491c02b4dcde164716d6893ebd591b305330040cb9a9d0459"
+export PI_HORIZON_URL="https://api.mainnet.minepi.com"
+export PI_NETWORK_PASSPHRASE="Pi Network"
+export TRIGGER_OFFSET_MS="100"
+export BASE_FEE="100"
+export FEE_MULTIPLIER="10"
+export PORT="5000"
+
+═══════════════════════════════════════════════════════════════════════════
+  FOR .env FILE (Create file named .env and paste this)
+═══════════════════════════════════════════════════════════════════════════
+
+SOURCE_SECRET=SBPKN6UH7QQLC37MIIYHFP2K4OAQAYFNSZC4ZQFJVA5RQ4VABV22O4FD
+FEE_PAYER_SECRET=SD644ZM7YLXZE3HZZUKGSJC3R45PMM6LPP5CCO2UIIUW6STRJCVJ4XJR
+DESTINATION_ACCOUNT=MD5HGPHVL73EBDUD2Z4K2VDRLUBC4FFN7GOBLKPK6OPPXH6TED4TQAAAAGMU2T4A4QT5Y
+UNLOCK_TIMESTAMP=1766827134
+BALANCE_ID=00000000a0a575e408edf3e491c02b4dcde164716d6893ebd591b305330040cb9a9d0459
+PI_HORIZON_URL=https://api.mainnet.minepi.com
+PI_NETWORK_PASSPHRASE=Pi Network
+TRIGGER_OFFSET_MS=100
+BASE_FEE=100
+FEE_MULTIPLIER=10
+PORT=5000
+
+═══════════════════════════════════════════════════════════════════════════
+  ACCOUNT SUMMARY
+═══════════════════════════════════════════════════════════════════════════
+
+Source Account (Claimable Balance Owner):
+  Public Key: GBWBVGZE5TIDKYJPOGT7STXQZNSPXGR5ZYC2PXGGV3CCOY6A5IPE5KQN
+  Balance: 1.0 XLM
+
+Fee Payer Account (Pays Transaction Fees):
+  Public Key: GBYREOB536LFKXSK6WZYOTKYXVARBKN7IF63Q5COOJ2TGRF4WPLN7EZZ
+  Balance: 0.99 XLM
+
+Destination Account (Receives Claimed Funds):
+  Account: MD5HGPHVL73EBDUD2Z4K2VDRLUBC4FFN7GOBLKPK6OPPXH6TED4TQAAAAGMU2T4A4QT5Y
+
+Claimable Balance:
+  Amount: 609.8364137 XLM
+  Balance ID: 00000000a0a575e408edf3e491c02b4dcde164716d6893ebd591b305330040cb9a9d0459
+  Unlock Time: 2025-12-27T09:18:54Z
+  Unix Timestamp: 1766827134
+
+═══════════════════════════════════════════════════════════════════════════
+  IMPORTANT NOTES
+═══════════════════════════════════════════════════════════════════════════
+
+1. NEVER share these secret keys publicly
+2. Mark SOURCE_SECRET and FEE_PAYER_SECRET as "secret" in Render
+3. Fee payer needs at least 0.2-0.5 XLM for transaction fees
+4. Bot will execute 100ms before unlock time (adjustable via TRIGGER_OFFSET_MS)
+5. For Render free tier, consider TRIGGER_OFFSET_MS=5000 (5 seconds safety margin)
+
+═══════════════════════════════════════════════════════════════════════════
