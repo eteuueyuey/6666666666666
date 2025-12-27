@@ -1,0 +1,24 @@
+{
+  "name": "stellar-sweep-bot",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "bot": "node sweep-bot.js",
+    "check": "node check-account.js",
+    "test": "node check-account.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "Stellar Pi Network Claimable Balance Sweep Bot with precision timing",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.89.0",
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "node-cron": "^4.2.1",
+    "p-limit": "^7.2.0",
+    "stellar-sdk": "^13.3.0"
+  }
+}
